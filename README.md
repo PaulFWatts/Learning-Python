@@ -2,6 +2,8 @@
 
 [My Python resources in Notion](https://www.notion.so/Python-c487189e2fb447daa558ba350c45d9bb)
 
+[Awesome Python](https://github.com/vinta/awesome-python#readme)
+
 **Using PyCharm under Windows and Linux**
 
 
