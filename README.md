@@ -4,6 +4,8 @@
 
 [Awesome Python](https://github.com/vinta/awesome-python#readme)
 
+[Python Interactive Cheat Sheet](https://speedsheet.io/s/python)
+
 **Using PyCharm under Windows and Linux**
 
 
