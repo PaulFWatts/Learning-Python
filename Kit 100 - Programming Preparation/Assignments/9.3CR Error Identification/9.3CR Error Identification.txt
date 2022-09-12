@@ -1,0 +1,22 @@
+9.3CR Error Identification
+Paul Watts, 569987
+May, 2022
+
+
+Error#  Line# Error Description
+------  ----------- ----------------------
+1       Line 1      Missing ] at end of list
+
+2       Line 3      Missing " after 10:
+
+3       Line 5      Missing : after 0
+
+4       Line 6      Undefined variable numbers. Should be number
+
+5       Line 7      Wrong indentation level. Should be indented under frequency
+
+6       Line 11     Missing ) at end of line after :"
+
+7       Line 14     Undefined variable freqncy. Should be frequency
+
+8       Line 15     Missing : after 0

@@ -1,0 +1,35 @@
+Assignment 11.1DN
+Paul Watts, 569987
+Date: May, 2022
+
+Answers:
+
+1. Import all code definitions from the tkinter class
+
+3. Starting the definition of the "ProcessButtonEvent" class
+
+4. Initialise constructor for our class
+
+5. Create window that will provide the framework for our widgets
+
+6. Create the "OK" button widget and set attributes
+
+7. Create the "Cancel" button widget and set attributes
+
+8. Display the "Ok" button in the window
+
+9. Display the "Cancel" button in the window
+
+10. Start the event handler for the window and wait for any events from the user such as clicking buttons or exiting the program.
+
+12. Define the method to handle when the "Ok" button is clicked
+
+13. Display the message "Ok button is clicked" when the user clicks the "Ok " button
+
+15. Define the method to handle when the "Cancel" button is clicked
+
+16. Display the message "Cancel button is clicked" when the user clicks the "Cancel" button
+
+18. Create an object called "myGUI" from the "ProcessButtonEvent" class.
+
+

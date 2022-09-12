@@ -1,0 +1,37 @@
+Kit100 - 9.2CR List Operations
+______________________________
+
+Paul Watts, 569987
+Date: May, 2022
+
+
+Question 1:
+(a) lst.append(40) will add the number 40 to the end of the list. lst = [30,1,2,1,0,40]
+
+(b) lst.insert(1,43) will add the number 43 to the position specified by index 1. lst = [30, 43, 1, 2, 1, 0]
+
+(c) lst.extend([1,43]) will add extend the list by adding the numbers 1, 43 to the end of the list. [30, 1, 2, 1, 0, 1, 43]
+
+(d) lst.remove(1) Removes the first occurance of number 1 from the list if it exists. lst = [30,2,1,0]
+
+(e) lst.pop(1) Removes the entry at index 1. lst = [30, 2, 1, 0]
+
+(f) lst.pop() Removes an entry from the end of the list. lst = [30, 1, 2, 1]
+
+(g) lst.sort() By default sorts the list in ascending order. lst = [0, 1, 1, 2, 30]
+
+(h) lst.reverse() Reverses the elements of the list. lst = [0, 1, 2, 1, 30]
+
+Question 2:
+
+(a) lst.index(1) returns the position at the first occurance of the number 1. Result: 1
+
+(b) lst.count(1) returns the number of times the number 1 occurs in the kist. Result: 2
+
+(c) len(lst) returns the length of the list. Result: 5
+
+(d) lst[1 : 3] "slices" the list by the inclusive start index position 1 and the exclusive end index position 3. Result: [1,2]
+
+(e) lst(3) returns the value at index position 3. Result: 1
+
+
