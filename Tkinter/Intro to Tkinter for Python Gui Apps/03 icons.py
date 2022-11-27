@@ -3,8 +3,7 @@ from tkinter import *
 root = Tk()  # create a window
 root.title("Input Boxes")
 root.geometry("400x400")  # width x height
-root.iconbitmap(
-    "D:/course-repos/Learning-Python/Tkinter/Intro to Tkinter for Python Gui Apps/wine_glass.ico")
+root.iconbitmap("codemy.ico")
 
 
 def clicked() -> None:

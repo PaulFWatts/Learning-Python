@@ -1,24 +1,25 @@
 from tkinter import *
 
-from PIL import Image, ImageTk
-
 root = Tk()  # create a window
 root.title("Input Boxes")
-root.geometry("800x600")  # width x height
+root.geometry("400x400")  # width x height
 root.iconbitmap("codemy.ico")
 
 
 def clicked() -> None:
+    global my_label2
     input: str = e.get()
-    my_label2: Label = Label(root, text="Hello " + input)
+    my_label2 = Label(root, text="Hello " + input)
     my_label2.pack()
 
 
-# Add images
-my_image1: ImageTk.PhotoImage = ImageTk.PhotoImage(
-    Image.open("siamese-cat.jpg"))
-image_label1: Label = Label(image=my_image1)
-image_label1.pack()
+def hide() -> None:
+    my_label2.pack_forget()
+    # my_label2.destroy()
+
+
+def show() -> None:
+    my_label2.pack()
 
 
 # create labels
@@ -33,5 +34,10 @@ e.pack(pady=20)
 my_button: Button = Button(root, text="Click me", command=clicked)
 my_button.pack(pady=20)
 
+hide_button: Button = Button(root, text="Hide", command=hide)
+hide_button.pack(pady=20)
+
+show_button: Button = Button(root, text="Show", command=show)
+show_button.pack(pady=20)
 
 root.mainloop()  # keep the window open
