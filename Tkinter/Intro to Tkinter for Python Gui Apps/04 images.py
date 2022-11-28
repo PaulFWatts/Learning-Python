@@ -3,7 +3,7 @@ from tkinter import *
 from PIL import Image, ImageTk
 
 root = Tk()  # create a window
-root.title("Input Boxes")
+root.title("Images")
 root.geometry("800x600")  # width x height
 root.iconbitmap("codemy.ico")
 

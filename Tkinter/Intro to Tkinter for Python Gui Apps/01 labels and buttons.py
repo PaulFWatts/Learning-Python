@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()  # create a window
-root.title("Hello World")
+root.title("Labels and Buttons")  # create labels
 root.geometry("400x400")  # width x height
 
 

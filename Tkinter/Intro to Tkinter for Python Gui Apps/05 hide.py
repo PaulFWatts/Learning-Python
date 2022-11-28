@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()  # create a window
-root.title("Input Boxes")
+root.title("Hide and Show")
 root.geometry("400x400")  # width x height
 root.iconbitmap("codemy.ico")
 
