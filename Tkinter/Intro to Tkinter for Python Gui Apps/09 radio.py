@@ -1,9 +1,11 @@
+from sys import platform
 from tkinter import *
 
 root = Tk()
 root.title("Radio Buttons")
 root.geometry("400x400")
-root.iconbitmap('codemy.ico')
+if platform != "linux":
+    root.iconbitmap('codemy.ico')
 
 # Create radio button function
 

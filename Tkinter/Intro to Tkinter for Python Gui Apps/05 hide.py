@@ -1,9 +1,11 @@
+from sys import platform
 from tkinter import *
 
 root = Tk()  # create a window
 root.title("Hide and Show")
 root.geometry("400x400")  # width x height
-root.iconbitmap("codemy.ico")
+if platform != "linux":
+    root.iconbitmap('codemy.ico')
 
 
 def clicked() -> None:

@@ -1,3 +1,4 @@
+from sys import platform
 from tkinter import *
 
 from PIL import Image, ImageTk
@@ -5,7 +6,8 @@ from PIL import Image, ImageTk
 root = Tk()  # create a window
 root.title("Images")
 root.geometry("800x600")  # width x height
-root.iconbitmap("codemy.ico")
+if platform != "linux":
+    root.iconbitmap('codemy.ico')
 
 
 def clicked() -> None:

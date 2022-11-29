@@ -1,9 +1,11 @@
+from sys import platform
 from tkinter import *
 
 root = Tk()
 root.title("Menu")
 root.geometry("400x400")
-root.iconbitmap('codemy.ico')
+if platform != "linux":
+    root.iconbitmap('codemy.ico')
 
 # Define our fake command
 

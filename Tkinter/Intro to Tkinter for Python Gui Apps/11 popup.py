@@ -1,10 +1,12 @@
+from sys import platform
 from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
 root.title("Message Box")
 root.geometry("400x400")
-root.iconbitmap('codemy.ico')
+if platform != "linux":
+    root.iconbitmap('codemy.ico')
 
 # Create Popup function
 
