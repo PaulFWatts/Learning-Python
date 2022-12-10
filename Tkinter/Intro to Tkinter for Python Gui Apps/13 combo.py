@@ -1,10 +1,12 @@
+from sys import platform
 from tkinter import *
 from tkinter import ttk
 
 root = Tk()
 root.title("Hello World!")
 root.geometry("400x400")
-root.iconbitmap('c:/guis/codemy.ico')
+if platform != "linux":
+    root.iconbitmap('codemy.ico')
 
 
 # Create Select function
