@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask"
+version = "0.1.0"
+description = ""
+authors = ["Paul Watts <paul.watts@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.3" 
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
