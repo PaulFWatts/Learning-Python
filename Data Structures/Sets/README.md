@@ -1,0 +1,3 @@
+In this example, we start by creating a set called `fruits` containing several fruit names. We then demonstrate various set operations. We add an element to the set using the `add()` method, remove an element using the `remove()` method, and check for the existence of an element using the `in` operator.
+
+Next, we iterate over the set using a `for` loop and print each element. After that, we create another set called `vegetables` and demonstrate set operations such as union, intersection, and difference. The `union()` method combines the elements from both sets, the `intersection()` method finds the common elements, and the `difference()` method returns the elements present in the first set but not in the second set.
